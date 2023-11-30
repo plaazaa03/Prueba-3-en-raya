@@ -106,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
         allowPlayerMoves = false;
         reiniciarTablero();
         habilitarBotones();
+
     }
 
     private void reiniciarTablero() {
