@@ -7,7 +7,57 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-    <Button
+    <ImageButton
+            android:id="@+id/botonC1"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="5dp"
+
+            android:backgroundTint="#959292"
+            app:layout_constraintEnd_toStartOf="@+id/botonB2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/botonB1"/>
+
+
+    <ImageButton
+            android:id="@+id/botonC2"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="5dp"
+
+            android:backgroundTint="#959292"
+            app:layout_constraintEnd_toStartOf="@+id/botonB3"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/botonB1"
+            app:layout_constraintTop_toBottomOf="@+id/botonB2" android:layout_marginStart="5dp"/>
+    <ImageButton
+            android:id="@+id/botonC3"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="50dp"
+
+            android:backgroundTint="#959292"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/botonB2"
+            app:layout_constraintTop_toBottomOf="@+id/botonB3" android:layout_marginStart="5dp"/>
+
+
+    <TextView
+            android:id="@+id/textViewPresentacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/_3_en_raya"
+            android:textColor="#E87B1D"
+            android:textSize="48sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageButton
             android:id="@+id/botonA1"
             android:layout_width="0dp"
             android:layout_height="80dp"
@@ -20,7 +70,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewPresentacion"/>
 
-    <Button
+    <ImageButton
             android:id="@+id/botonA2"
             android:layout_width="0dp"
             android:layout_height="80dp"
@@ -32,42 +82,45 @@
             app:layout_constraintStart_toEndOf="@+id/botonA1"
             app:layout_constraintTop_toBottomOf="@+id/textViewPresentacion"/>
 
-    <Button
+    <ImageButton
             android:id="@+id/botonA3"
             android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_marginTop="50dp"
             android:layout_marginEnd="50dp"
+
             android:backgroundTint="#959292"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/botonA2"
             app:layout_constraintTop_toBottomOf="@+id/textViewPresentacion"/>
 
-    <Button
+    <ImageButton
             android:id="@+id/botonB1"
             android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_marginStart="50dp"
             android:layout_marginEnd="5dp"
+
             android:backgroundTint="#959292"
             app:layout_constraintEnd_toStartOf="@+id/botonB2"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/botonA1"/>
 
-    <Button
+    <ImageButton
             android:id="@+id/botonB2"
             android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_marginEnd="5dp"
+
             android:backgroundTint="#959292"
             app:layout_constraintEnd_toStartOf="@+id/botonB3"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/botonB1"
             app:layout_constraintTop_toBottomOf="@+id/botonA2"/>
 
-    <Button
+    <ImageButton
             android:id="@+id/botonB3"
             android:layout_width="0dp"
             android:layout_height="80dp"
@@ -78,89 +131,65 @@
             app:layout_constraintStart_toEndOf="@+id/botonB2"
             app:layout_constraintTop_toBottomOf="@+id/botonA3"/>
 
-    <Button
-            android:id="@+id/botomC1"
-            android:layout_width="0dp"
-            android:layout_height="80dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="#959292"
-            app:layout_constraintEnd_toStartOf="@+id/botonC2"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/botonB1"/>
-
-    <Button
-            android:id="@+id/botonC2"
-            android:layout_width="0dp"
-            android:layout_height="80dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="#959292"
-            app:layout_constraintEnd_toStartOf="@+id/botonC3"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/botomC1"
-            app:layout_constraintTop_toBottomOf="@+id/botonB2"/>
-
-    <Button
-            android:id="@+id/botonC3"
-            android:layout_width="0dp"
-            android:layout_height="80dp"
-            android:layout_marginEnd="50dp"
-            android:backgroundTint="#959292"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/botonC2"
-            app:layout_constraintTop_toBottomOf="@+id/botonB3"/>
-
-    <TextView
-            android:id="@+id/textViewPresentacion"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="3 en Raya"
-            android:textColor="#E87B1D"
-            android:textSize="48sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
 
     <View
             android:id="@+id/separadorTresEnRaya"
             android:layout_width="0dp"
             android:layout_height="1dp"
-            android:layout_marginTop="25dp"
             android:background="#CCCCCC"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/botonC3"/>
+            app:layout_constraintTop_toBottomOf="@+id/botonC2" android:layout_marginTop="40dp"/>
 
-    <Button
-            android:id="@+id/button"
+    <RadioGroup
+            android:id="@+id/radioGroupNivel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:layout_marginEnd="50dp"
-            android:text="START"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/separadorTresEnRaya" />
-
-    <RadioButton
-            android:id="@+id/radioButtonFacil"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="50dp"
-            android:text="Tranquilitos, ¿eh?"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/separadorTresEnRaya" />
-
-    <RadioButton
-            android:id="@+id/radioButtonDificil"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
             android:layout_marginTop="20dp"
-            android:text="Me gustan los retos"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioButtonFacil" />
+            app:layout_constraintTop_toBottomOf="@+id/separadorTresEnRaya">
+
+        <RadioButton
+                android:id="@+id/radioButtonFacil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tranquilitos_eh" />
+
+        <RadioButton
+                android:id="@+id/radioButtonDificil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/me_gustan_los_retos" />
+    </RadioGroup>
+
+    <ToggleButton
+            android:id="@+id/toggleButtonStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/stop"
+            android:textOff="@string/start"
+            android:checked="false"
+            app:layout_constraintTop_toBottomOf="@+id/separadorTresEnRaya"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="48dp"
+            android:layout_marginTop="20dp"/>
+
+    <TextView
+            android:id="@+id/textViewTurno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/turno"
+            android:visibility="invisible"
+            app:layout_constraintTop_toBottomOf="@+id/toggleButtonStart" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="12dp" android:layout_marginEnd="68dp"/>
+    <ImageView
+            android:id="@+id/imageViewTurno"
+            android:layout_width="86dp"
+            android:layout_height="89dp"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTurno"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="48dp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

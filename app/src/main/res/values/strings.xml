@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">3 en raya</string>
+    <string name="turno">Turno:</string>
+    <string name="me_gustan_los_retos">Me gustan los retos</string>
+    <string name="stop">STOP</string>
+    <string name="start">START</string>
+    <string name="tranquilitos_eh">Tranquilitos, ¿eh?</string>
+    <string name="_3_en_raya">3 en Raya</string>
 </resources>
